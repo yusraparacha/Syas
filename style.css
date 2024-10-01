@@ -1,0 +1,640 @@
+body 
+{
+margin:0;padding:0
+}
+a
+{
+text-decoration: none;
+color: inherit;   
+}
+.top_header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Microsoft Yi Baiti';
+}
+.top_header span
+{
+  font-size: 50px;
+}
+.top_header i
+{
+  font-size: 30px;
+  margin-top: 20px;
+}
+.header
+{
+  margin-left: -4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  font-family: 'Microsoft Yi Baiti';
+  align-items: center;
+}
+.header span
+{
+  margin-left: 7%;
+  font-size: 30px;
+}
+
+.div1 /* top ki pic after header  */
+{ 
+width: 100%;
+height: 400px;
+}
+.div1 video
+{
+width: 100%;
+height: 530px;
+object-fit: cover;
+}
+/* ------------------------------------  */
+.div_1 /* in soft sculpture  */
+{
+margin: -2% 0 0 2%;
+font-size: 60px;
+font-family: 'Microsoft Yi Baiti';
+border: none;
+width: fit-content;
+height: fit-content;
+border-radius: 4px;
+padding: 4px 10px 4px 10px;
+
+}
+.div_2 /* shop the collection  */
+{
+position: absolute;
+margin: 4% 0 0px 2%;
+font-size: 45px;
+font-family: 'Microsoft Yi Baiti';
+border: none;
+width: fit-content;
+height: fit-content;
+white-space: nowrap;
+padding: 4px 10px 4px 10px;
+border-radius: 4px;
+
+}
+.div_2 span
+{
+  position: absolute;
+}
+.div_2 span:nth-child(1)
+{
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+}
+.div_2 span:nth-child(2)
+{
+  color: white;
+  animation: animate3 6s ease-in-out infinite;
+}
+@keyframes animate3
+{
+  0%,100%
+  {
+    clip-path: polygon(1% 55%, 8% 48%, 18% 43%, 28% 45%, 35% 51%, 39% 56%, 46% 65%, 53% 71%, 62% 73%, 72% 73%, 82% 70%, 91% 67%, 100% 63%, 100% 100%, 1% 99%);
+  }
+  50%
+  {
+    clip-path: polygon(0% 59%, 11% 70%, 19% 71%, 29% 72%, 37% 68%, 42% 63%, 48% 59%, 57% 54%, 69% 51%, 80% 51%, 89% 53%, 94% 58%, 100% 63%, 100% 100%, 1% 100%);
+  }
+}
+.div_1 span
+{
+  position: absolute;
+}
+.div_1 span:nth-child(1)
+{
+  color: transparent;
+  -webkit-text-stroke: 3px black;
+}
+.div_1 span:nth-child(2)
+{
+  color: white;
+  animation: animate2 6s ease-in-out infinite;
+}
+@keyframes animate2
+{
+  0%,100%
+  {
+    clip-path: polygon(1% 55%, 8% 48%, 18% 43%, 28% 45%, 35% 51%, 39% 56%, 46% 65%, 53% 71%, 62% 73%, 72% 73%, 82% 70%, 91% 67%, 100% 63%, 100% 100%, 1% 99%);
+  }
+  50%
+  {
+    clip-path: polygon(0% 59%, 11% 70%, 19% 71%, 29% 72%, 37% 68%, 42% 63%, 48% 59%, 57% 54%, 69% 51%, 80% 51%, 89% 53%, 94% 58%, 100% 63%, 100% 100%, 1% 100%);
+  }
+}
+.div2  /* all animations  */
+{
+display: flex;
+justify-content:center;
+width: 96%;
+height: fit-content;
+margin: 200px 0 0 0;
+flex-direction: row;
+flex-wrap: wrap;
+padding:  0 1% 0 1%;
+position: relative;
+}
+.div2 img
+{
+width: 100%;
+height: 480px;
+object-fit: cover;
+}
+.div2 video
+{
+width: 100%;
+height: 480px;
+object-fit:cover;
+}
+.div3 /* each pic  */
+{
+width: 27.5%;
+height: 480px;
+box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.705);
+position: relative;
+z-index: 800;
+margin: 0 0 0 20px;
+}
+.div3 span
+{
+color: white;
+position:absolute;
+left: 0;
+bottom: 0;
+font-weight: bold;
+font-size: 35px;
+font-family: 'Times New Roman', Times, serif;
+}
+.div3:hover
+{
+transform: scale(1.01)
+}
+#div3 /* for whole big img */
+{
+width: 86%;
+height: 400px;
+margin: 30px 0 0 1.5%;
+}
+#div3 img 
+{
+height: 400px;
+}
+#video1 /* for sale vid */
+{
+object-fit: fill;
+}
+#div_3 /* for sale vid watermark coverup */
+{
+position: absolute;
+background-color: black;
+width: 98px;
+height: 20px;
+margin: 450px 0 0 20.9%;
+z-index: 1000;
+}
+/* ------------------------------------  */
+.div4 /* Sort by  */
+{
+display: flex;
+justify-content: center;
+margin: 40px 0px 0px 0px; 
+}
+.div4 select  
+{
+background-color: none;
+border: 2px solid black;
+color: black;
+font-size: 20px;
+width: fit-content;
+height: fit-content;
+padding: 5px 5px 5px 5px;
+}
+/* ------------------------------------  */
+.div5 /* listing whole  */
+{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: flex-start;
+padding: 0 4% 0 4%;
+margin: 0px 0 0 0%;
+justify-content: center;
+}
+#spanproducts
+{
+font-family: 'Microsoft Yi Baiti';
+font-size: 60px;
+position: absolute;
+z-index: 1000;
+
+}
+.div6 /* listed box  */
+{
+width: 22%;
+margin: 30px 0 0 30px;
+height: fit-content;
+position: relative;
+z-index: 500;
+}
+#button3 
+{
+position: absolute;
+margin: 190px 0 0 25%;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+border: 1px solid rgba(0, 0, 0, 0.705);
+width: fit-content;
+height: fit-content;
+border-radius: 8px;
+padding: 4px 10px 4px 10px;
+background-color: rgb(0, 0, 0);
+cursor:grab;
+color: white;
+}
+#div7 /* upper part  */
+{
+width: 100%;
+}
+#div7 img
+{
+width: 100%;
+object-fit: contain;
+height: 300px;
+}
+#div8 /* lower part  */
+{
+width: fit-content;
+height: fit-content;
+padding: 0 2% 2% 4%;
+}
+#div8 span
+{
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+line-height: 145%;
+letter-spacing: 1px;
+}
+#span1 /* company name  */
+{
+color: rgb(87, 85, 85);
+}
+/* ------------------------------------  */
+#div_9
+{
+  background-color: rgba(216, 138, 74, 0.514);
+  width: 100%;
+  margin: 70px 0 0px 0;
+  height: 730px;
+  position: absolute;
+  transform: skewY(-2deg);
+}
+#div_10
+{
+margin: -490px 0px 0px 38%;
+transform: skewY(2deg);
+font-family: 'Microsoft Yi Baiti';
+font-size: 50px;
+}
+#div_10 span
+{
+  position: absolute;
+}
+#div_10 span:nth-child(1)
+{
+  color: transparent;
+  -webkit-text-stroke: 3px black;
+}
+#div_10 span:nth-child(2)
+{
+  color: rgb(245, 244, 243);
+  animation: animate 3s ease-in-out infinite;
+}
+@keyframes animate
+{
+  0%,100%
+  {
+    clip-path: polygon(1% 55%, 8% 48%, 18% 43%, 28% 45%, 35% 51%, 39% 56%, 46% 65%, 53% 71%, 62% 73%, 72% 73%, 82% 70%, 91% 67%, 100% 63%, 100% 100%, 1% 99%);
+  }
+  50%
+  {
+    clip-path: polygon(0% 59%, 11% 70%, 19% 71%, 29% 72%, 37% 68%, 42% 63%, 48% 59%, 57% 54%, 69% 51%, 80% 51%, 89% 53%, 94% 58%, 100% 63%, 100% 100%, 1% 100%);
+  }
+}
+.carousel .carousel-item>img
+{
+  width: 100%;
+  height: 450px;
+  
+} 
+.div9 /* slider whole  */
+{
+width: 85%;
+height: 600px;
+margin: -70px 0% 0 8%;
+align-items: center;
+transform: skewY(2deg);
+}
+.carousel .carousel-item 
+{
+  width: 500px;
+}
+.carousel
+{
+  height: 600px;
+}
+#divdisco1,#divdisco2,#divdisco3,#divdisco4,#divdisco5
+{
+  font-family:  'Microsoft Yi Baiti';
+  width: 37%;
+  margin: 490px 0 0 32%;
+  height: 150px;
+  transform: skewY(2deg);
+
+}
+.discobutton
+{
+  background-color: transparent;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 50%;
+  height: 50px;
+  margin: 10px 0% 0 30%;
+}
+.textdisco1
+{
+ font-size: 30px;
+ font-weight: bold;
+}
+.textdisco2
+{
+ font-size: 25px;
+
+}
+
+/* ------------------------------------  */
+.customer
+{
+  background-color: rgba(216, 138, 74, 0.514);
+  width: 100%;
+  margin: 0px 0 0px 0;
+  height: 730px;
+  position: absolute;
+  transform: skewY(2deg);
+  text-align: center;
+}
+.customer1
+{
+  font-family:  'Microsoft Yi Baiti';
+  transform: skewY(-2deg);
+  font-size: 55px;
+  margin: 40px 0 0 0;
+}
+.customer11
+{
+  text-align: center;
+  height: 500px;
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: skewY(-2deg);
+  position: absolute;
+  text-align: -webkit-center;
+}
+.circle
+{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: grey;
+}
+.stars
+{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.stars i
+{
+  font-size: 20px;
+}
+.review
+{
+  width: 270px;
+  height: 220px;
+}
+.review p
+{
+  font-size: 25px;
+}
+.heading
+{
+  margin-left: 8%;
+}
+
+#diva /* Hello div */
+{
+    width:100%;
+    height: 300px;
+    margin-top: 170px;
+    line-height: 40px;
+    text-align: center;
+}
+#diva img
+{
+    margin: -100px 0 0 0;
+}
+#spana /* contact syas  */
+{
+   font-size: 50px;
+   margin: -40px 0 0 0 ;
+   font-family: 'Times New Roman', Times, serif;
+}
+#spanb /* aga ka text */
+{
+   font-size: 20px;
+   margin: 10px 0 0 35%;
+   width: 30%;
+   line-height:30px;
+   height: fit-content;
+   font-family: 'Times New Roman', Times, serif;
+}
+.diva /* whole slant div */
+{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(216, 138, 74, 0.514);
+    transform: skewY(-2deg);
+}
+.divb /* white div inside slant */
+{
+    width: 30%;
+    height: 360px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 7.5% 0 0 10%;
+}
+.divb button
+{
+    position: absolute;
+    margin: 140px 0 0 0 ;
+}
+#divb /* line insdide white */
+{
+    width: 90%;
+    height: 1px;
+    background-color: rgba(216, 138, 74, 0.808);
+    position: absolute;
+    margin: 90px 0 0 0;
+}
+#spanc  /* get in touch with us */
+{
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    position: absolute;  
+    margin: 23px 0 0 0;
+}
+.bi:hover
+{
+    cursor:grab;
+}
+#divc/* icons div */
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: fit-content;
+    margin: 131px 0 0 -48%;
+    justify-content: center;
+    position: absolute;
+}
+#divd /* front of icon text */
+{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: fit-content;
+    margin: 120px 0 0 15%;
+    justify-content: center;
+    position: absolute;
+    line-height: 60px;
+}
+#spand /*email*/
+{
+    cursor: grab;
+}
+#spane /* feedback */
+{
+    position: absolute;
+    margin: 335px 0 0 0;
+    font-size: 12px;
+}
+#divg /* maps div */
+{
+    display: flex;
+    margin: 0 0 0 43%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    transform: skewY(2deg);
+}
+.Map1 /* map */
+{
+    width: 22%;
+    height: 200px;
+    margin: 75px 5% 0 0;
+}
+#dive /* our locations */
+{
+    transform: skewY(2deg);
+    position: absolute;
+    margin: 80px 0 0 63%;
+    font-size: 35px;
+    width: fit-content;
+    height: fit-content;
+}
+#divf /* flags*/
+{
+    display: flex;
+    transform: skewY(2deg);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 0 0 0 48.5%;
+}
+#divf img
+{
+    margin: 150px 26% 0 0;
+    position: relative;
+}
+#divh /* countries */
+{
+    transform: skewY(2deg);
+    position: absolute;
+    display: flex;
+    margin: -295px 0 0 54%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    font-size: 20px;
+    width: 38%;
+    white-space: nowrap;
+    font-family: 'Microsoft Yi Baiti';
+}
+#divh span
+{
+    margin: 0 22% 0 0;
+}
+#divi
+{
+    transform: skewY(2deg);
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    margin: -250px 0 0 53%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    font-size: 14px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: nowrap;
+}
+#divi span
+{
+    margin: 0 10% 0 0;
+    font-family: 'Microsoft Yi Baiti';
+}
+
+.footer
+{
+  margin-top: 650px;
+  height: 70px;
+  width: 100%;
+}
+.icons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+.footer_text
+{
+  text-align: center;
+}
